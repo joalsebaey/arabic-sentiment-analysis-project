@@ -1,0 +1,31 @@
+# Models Directory
+
+This directory stores trained machine learning models.
+
+## Generated Files
+
+When you run the notebook, the following model files will be saved here:
+
+- `logistic_standard.pkl` - Logistic Regression with standard preprocessing
+- `logistic_advanced.pkl` - Logistic Regression with advanced preprocessing
+- `svc_standard.pkl` - Linear SVC with standard preprocessing
+- `svc_advanced.pkl` - Linear SVC with advanced preprocessing
+
+## Loading Saved Models
+
+You can load and reuse trained models:
+
+```python
+import pickle
+
+# Load a saved model
+with open('models/logistic_advanced.pkl', 'rb') as f:
+    model = pickle.load(f)
+
+# Make predictions
+predictions = model.predict(X_test)
+```
+
+## Note
+
+Model files are excluded from version control (`.gitignore`) due to large file sizes.
