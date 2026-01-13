@@ -98,7 +98,7 @@ python arabic_sentiment_analysis.py
 - **Linear SVC** (Calibrated for probability estimates)
 
 ## 📈 Results
-
+![Comparison Results](Results/COMPARISON.png)
 ### Performance Comparison
 
 | Model | Preprocessing | Accuracy | Precision | Recall | F1-Score |
