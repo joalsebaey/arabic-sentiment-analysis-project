@@ -192,7 +192,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or suggestions, please open an issue or contact:
-- **GitHub**: [@YOUR_USERNAME](https://github.com/joalsebaey)
+- **GitHub**: [@joalsebaey](https://github.com/joalsebaey)
 - **Email**: yousefayman150@gmail.com
 
 ## 🔗 Links
