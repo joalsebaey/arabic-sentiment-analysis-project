@@ -1,0 +1,34 @@
+# Data Directory
+
+This directory should contain the dataset for the project.
+
+## Required File
+
+- `arabic_sentiment_reviews.csv` - The main dataset file
+
+## Download Instructions
+
+### Option 1: Kaggle API
+
+```bash
+kaggle datasets download -d abdallaellaithy/330k-arabic-sentiment-reviews
+unzip 330k-arabic-sentiment-reviews.zip -d data/
+```
+
+### Option 2: Manual Download
+
+1. Visit: https://www.kaggle.com/datasets/abdallaellaithy/330k-arabic-sentiment-reviews
+2. Download the dataset
+3. Extract `arabic_sentiment_reviews.csv` to this folder
+
+## Dataset Information
+
+- **Size**: ~330,000 reviews
+- **Format**: CSV
+- **Columns**:
+  - `content`: Arabic review text
+  - `label`: Sentiment label (positive/negative)
+
+## Note
+
+This folder is excluded from version control (`.gitignore`) due to the large file size.
