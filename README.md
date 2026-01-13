@@ -103,10 +103,10 @@ python arabic_sentiment_analysis.py
 
 | Model | Preprocessing | Accuracy | Precision | Recall | F1-Score |
 |-------|---------------|----------|-----------|--------|----------|
-| Logistic Regression | Standard | ~XX% | ~XX% | ~XX% | ~XX% |
-| Logistic Regression | **Advanced** | **~XX%** ✨ | **~XX%** | **~XX%** | **~XX%** |
-| Linear SVC | Standard | ~XX% | ~XX% | ~XX% | ~XX% |
-| Linear SVC | **Advanced** | **~XX%** ✨ | **~XX%** | **~XX%** | **~XX%** |
+| Logistic Regression | Standard | 89.18% | ~0.89% | ~0.89% | ~0.89% |
+| Logistic Regression | **Advanced** | **~87.61%** ✨ | **~0.88%** | **~0.88%** | **~0.88%** |
+| Linear SVC | Standard | ~90.12%% | ~0.90% | ~0.90% | ~0.9% |
+| Linear SVC | **Advanced** | **~88.35%** ✨ | **~0.88%** | **~0.89%** | **~0.88%** |
 
 > 💡 **Key Insight**: The advanced preprocessing approach shows significant improvement in handling negated sentiments (e.g., "ليس جيد" - "not good") by preserving critical linguistic features.
 
@@ -192,14 +192,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or suggestions, please open an issue or contact:
-- **GitHub**: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- **Email**: your.email@example.com
+- **GitHub**: [@YOUR_USERNAME](https://github.com/joalsebaey)
+- **Email**: yousefayman150@gmail.com
 
 ## 🔗 Links
 
 - [Dataset on Kaggle](https://www.kaggle.com/datasets/abdallaellaithy/330k-arabic-sentiment-reviews)
-- [Project Repository](https://github.com/YOUR_USERNAME/arabic-sentiment-analysis)
-- [Report Issues](https://github.com/YOUR_USERNAME/arabic-sentiment-analysis/issues)
+- [Project Repository](https://github.com/joalsebaey/arabic-sentiment-analysis-project)
 
 ---
 
