@@ -24,6 +24,7 @@ This project performs sentiment analysis on 330K Arabic reviews, comparing **Sta
 - **Languages**: Arabic
 - **Task**: Binary sentiment classification (Positive/Negative)
 
+![Data Distribution](Results/output.png)
 ### Dataset Setup
 
 1. Download the dataset from Kaggle:
